@@ -10,3 +10,32 @@ export const increment = () => {
     type: INCREMENT
   }
 }
+export const decrement = () => {
+  return {
+    type: DECREMENT
+  }
+}
+export const add = () => {
+  return {
+    type: ADD,
+    value: 5
+  }
+}
+export const subtract = () => {
+  return {
+    type: SUBTRACT,
+    value: 5
+  }
+}
+export const storeResult = (counter) => {
+  return {
+    type: STORE_RESULT,
+    result: counter
+  }
+}
+export const deleteResult = (id) => {
+  return {
+    type: DELETE_RESULT,
+    id: id
+  }
+}
