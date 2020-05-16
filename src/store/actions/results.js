@@ -1,6 +1,7 @@
 import * as actionTypes from './actionTypes'
 
 const saveResult = (counter) => {
+  // const updatedCounter = counter * 2;
   return {
     type: actionTypes.STORE_RESULT,
     result: counter
