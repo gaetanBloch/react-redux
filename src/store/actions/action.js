@@ -15,16 +15,16 @@ export const decrement = () => {
     type: DECREMENT
   }
 }
-export const add = () => {
+export const add = (value) => {
   return {
     type: ADD,
-    value: 5
+    value: value
   }
 }
-export const subtract = () => {
+export const subtract = (value) => {
   return {
     type: SUBTRACT,
-    value: 5
+    value: value
   }
 }
 export const storeResult = (counter) => {
